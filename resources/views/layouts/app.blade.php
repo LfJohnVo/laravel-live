@@ -37,6 +37,10 @@
 <script
     src="https://unpkg.com/bootstrap-table@1.18.1/dist/themes/materialize/bootstrap-table-materialize.min.js"></script>
 @livewireScripts
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+</script>
+<x-livewire-alert::scripts />
+
 
 </body>
 </html>
