@@ -7,11 +7,12 @@
 return [
     'alert' => [
         'position' => 'top-end',
-        'timer' => 3000,
+        'timer' => 2500,
         'toast' => true,
         'text' => null,
+        'confirmButtonText' =>  'Ok',
         'showCancelButton' => false,
-        'showConfirmButton' => false
+        'showConfirmButton' => true
     ],
     'confirm' => [
         'icon' => 'warning',

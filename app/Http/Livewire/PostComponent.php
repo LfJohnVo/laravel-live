@@ -17,4 +17,9 @@ class PostComponent extends Component
             'posts' => Post::orderBy('id', 'desc')->paginate(),
         ]);
     }
+
+    public function destroy($id){
+        Post::destroy($id);
+        $this->alert('success', 'Registro eliminado!');
+    }
 }
